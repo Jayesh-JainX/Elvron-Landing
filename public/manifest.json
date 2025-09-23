@@ -1,0 +1,16 @@
+{
+  "name": "Onexo",
+  "short_name": "Onexo",
+  "description": "Decentralized AI compute marketplace and GPU rental platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0361DA",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
