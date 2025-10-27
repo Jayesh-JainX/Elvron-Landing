@@ -378,10 +378,7 @@ const TokenShowcase: React.FC = () => {
                   <button
                     className="relative px-4 py-3 rounded-xl text-black font-semibold text-sm md:text-base overflow-hidden"
                     onClick={() => {
-                      window.open(
-                        "https://drive.google.com/file/d/1M18_lbY45yPDFhcr-WUMCaT6y6wKGZOL/view",
-                        "_blank"
-                      );
+                      window.open("#", "_blank");
                     }}
                   >
                     <div className="absolute inset-0">

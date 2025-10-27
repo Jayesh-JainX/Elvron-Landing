@@ -73,7 +73,7 @@ const StatGlow: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 };
 
 function PresaleCard() {
-  const openPresale = () => window.open("https://swarm.Elvron.ai/", "_blank");
+  const openPresale = () => window.open("#", "_blank");
   const [useAltSlider, setUseAltSlider] = useState(false);
 
   useEffect(() => {
@@ -393,10 +393,7 @@ export default function Hero() {
                   </button>
                   <button
                     onClick={() => {
-                      window.open(
-                        "https://drive.google.com/file/d/1p16Vn1tdmRbCapAERh3hldjrrAbiWACz/view?usp=drive_link",
-                        "_blank"
-                      );
+                      window.open("#", "_blank");
                     }}
                     className="p-0 border-none bg-transparent hover:bg-transparent"
                   >
