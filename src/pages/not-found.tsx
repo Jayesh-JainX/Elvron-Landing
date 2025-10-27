@@ -9,7 +9,7 @@ import { ArrowLeft } from "lucide-react";
 import { PatternBackground } from "@/components/home/Highlight";
 import LandingWithMarquee from "@/components/home/InfiniteSlidingHeader";
 import Header from "@/components/home/Header";
-import OnexoFooter from "@/components/home/Footer";
+import ElvronFooter from "@/components/home/Footer";
 
 const NotFound = () => {
   const location = useLocation();
@@ -48,7 +48,7 @@ const NotFound = () => {
           </div>
         </Container>
       </main>
-      <OnexoFooter />
+      <ElvronFooter />
     </div>
   );
 };

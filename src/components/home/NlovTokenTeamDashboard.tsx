@@ -201,10 +201,10 @@ const TokenShowcase: React.FC = () => {
             $NLOV Token
           </h1>
           <div className="max-w-5xl mx-auto text-sm md:text-base font-normal text-gray-300 leading-relaxed tracking-wide">
-            $NLOV is set to become the backbone of the Onexo ecosystem, powering
-            all features and transactions. With the full platform and features
-            already live, $NLOV demand—and its value—will naturally skyrocket at
-            launch
+            $NLOV is set to become the backbone of the Elvron ecosystem,
+            powering all features and transactions. With the full platform and
+            features already live, $NLOV demand—and its value—will naturally
+            skyrocket at launch
           </div>
         </div>
 

@@ -17,7 +17,7 @@ export function Highlight() {
         "Rent GPUs for AI training and inference. Affordable, scalable compute power for all. Why it matters: Access high- performance GPUs on demand, no need to own expensive hardware. Ideal for researchers, startups, and creators who need flexible, affordable compute resources.",
       cta: {
         label: "LEARN MORE",
-        href: "https://app.onexo.ai/gpu-marketplace",
+        href: "https://app.Elvron.ai/gpu-marketplace",
       },
       align: "start",
     },
@@ -25,8 +25,8 @@ export function Highlight() {
       img: "/highlight/2.png",
       title: "AI Models",
       description:
-        "Generate images, text, audio, code, and video with ease. Unleash creativity with Onexo. Who it’s for: Artists, developers, and businesses looking to integrate state-of-the-art AI into their workflows, no technical barriers, just results.",
-      cta: { label: "LEARN MORE", href: "https://app.onexo.ai/ai-models" },
+        "Generate images, text, audio, code, and video with ease. Unleash creativity with Elvron. Who it’s for: Artists, developers, and businesses looking to integrate state-of-the-art AI into their workflows, no technical barriers, just results.",
+      cta: { label: "LEARN MORE", href: "https://app.Elvron.ai/ai-models" },
       align: "start",
     },
     {
@@ -34,7 +34,7 @@ export function Highlight() {
       title: "Swarm Network",
       description:
         "Connect devices, solve compute tasks, and earn NLOV. Turn idle hardware into income. Why it matters: Anyone can contribute their device’s unused power to the network and earn rewards, making advanced AI accessible and affordable for all.",
-      cta: { label: "LEARN MORE", href: "https://swarm.onexo.ai" },
+      cta: { label: "LEARN MORE", href: "https://swarm.Elvron.ai" },
       align: "start",
     },
     {

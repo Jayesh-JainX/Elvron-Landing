@@ -169,7 +169,7 @@ const AIModelsSection: React.FC = () => {
               <div className="mt-8 lg:mt-8 lg:mb-2 mb-8">
                 <button
                   onClick={() => {
-                    window.open("https://app.onexo.ai/dashboard", "_blank");
+                    window.open("https://app.Elvron.ai/dashboard", "_blank");
                   }}
                   className="w-full max-w-[280px] lg:max-w-[280px] relative px-6 lg:px-8 py-3 lg:py-4 rounded-xl text-black font-semibold text-base lg:text-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(137,189,255,0.8)] mx-auto lg:mx-0 block"
                 >

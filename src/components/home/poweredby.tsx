@@ -160,27 +160,27 @@ export default function PoweredAndWhy() {
       <div className="mt-16 sm:mt-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h3 className=" hidden lg:block text-5xl tracking-tight">
           <div className="text-white/80">WHY </div>
-          <div className="text-[#ACD2FF] font-bold">ONEXO?</div>
+          <div className="text-[#ACD2FF] font-bold">ELVRON?</div>
         </h3>
 
         <h3 className="lg:hidden text-4xl text-center tracking-tight">
           <div className="flex justify-center">
             <div className="text-white/80 pr-2">WHY</div>
-            <div className="text-[#ACD2FF] font-bold">ONEXO?</div>
+            <div className="text-[#ACD2FF] font-bold">ELVRON?</div>
           </div>
         </h3>
 
         <div className="hidden lg:block mt-8 grid-cols-1 gap-6">
           {whyItems.map((item, idx) => (
             <div key={idx} className="flex my-8 items-center justify-center">
-              <img src={item.image} alt="Why Onexo" />
+              <img src={item.image} alt="Why Elvron" />
             </div>
           ))}
         </div>
         <div className="block lg:hidden mt-8 grid-cols-1 gap-6">
           {whyItemsMob.map((item, idx) => (
             <div key={idx} className="flex items-center my-6 justify-center">
-              <img src={item.image} alt="Why Onexo" />
+              <img src={item.image} alt="Why Elvron" />
             </div>
           ))}
         </div>

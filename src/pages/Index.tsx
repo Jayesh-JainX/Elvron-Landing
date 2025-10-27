@@ -7,10 +7,10 @@ import BottomLineFix from "@/components/home/BottomLineFix";
 import { Highlight } from "@/components/home/Highlight";
 import AIModelsSection from "@/components/home/AIModelsSection";
 import NlovTokenDashboard from "@/components/home/NlovTokenTeamDashboard";
-import WhyOnexo from "@/components/home/poweredby";
+import WhyElvron from "@/components/home/poweredby";
 import ComputePowerSharing from "@/components/home/ComputePowerSharing";
 import LandingWithMarquee from "@/components/home/InfiniteSlidingHeader";
-import OnexoFooter from "@/components/home/Footer";
+import ElvronFooter from "@/components/home/Footer";
 import LatestUpdates from "@/components/home/LatestUpdates";
 import Team from "@/components/home/Team";
 
@@ -64,7 +64,7 @@ const Index = () => {
         </div>
 
         <div>
-          <WhyOnexo />
+          <WhyElvron />
         </div>
 
         <div className="mt-20">
@@ -90,7 +90,7 @@ const Index = () => {
       </main>
 
       <div className="py-10">
-        <OnexoFooter />
+        <ElvronFooter />
       </div>
     </div>
   );

@@ -74,11 +74,11 @@ export default function Tokenomics() {
               Tokenomics
             </span>
             <h2 className="text-3xl font-bold mb-4 relative hero-text-gradient text-center">
-              $NLOV: The Heart of Onexo
+              $NLOV: The Heart of Elvron
               <div className="absolute -bottom-2 left-1/2 w-20 h-1 bg-gradient-to-r from-[#0361DA] to-blue-500 rounded-full transform -translate-x-1/2"></div>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto reveal reveal-delay-2 text-center mt-2">
-              $NLOV powers the entire Onexo ecosystem, enabling seamless
+              $NLOV powers the entire Elvron ecosystem, enabling seamless
               transactions, rewards, and governance. Be part of our journey from
               day one.
             </p>

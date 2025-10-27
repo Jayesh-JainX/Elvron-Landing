@@ -38,7 +38,7 @@ export default function AIModelCard({
         <picture>
           <img
             src={`/ai-models/${
-              id === "onexo-image"
+              id === "Elvron-image"
                 ? "neuro image.png"
                 : id === "deepfake"
                 ? "deepfake.png"
@@ -91,7 +91,7 @@ export default function AIModelCard({
           <Button
             className="w-fit px-6 bg-gradient-to-r from-[#0361DA] to-blue-600 hover:from-blue-700 hover:to-blue-900 text-white transition-all duration-300 ease-in-out"
             onClick={() =>
-              window.open(`https://app.onexo.ai/${redirectedPage}`, "_blank")
+              window.open(`https://app.Elvron.ai/${redirectedPage}`, "_blank")
             }
           >
             Launch App

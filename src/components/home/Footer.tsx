@@ -44,7 +44,7 @@ const footerLinks = [
   },
 ];
 
-const OnexoFooter: React.FC = () => {
+const ElvronFooter: React.FC = () => {
   return (
     <>
       <footer className="relative overflow-hidden rounded-3xl mx-2 sm:mx-4 mb-6 sm:mb-8">
@@ -61,7 +61,7 @@ const OnexoFooter: React.FC = () => {
               backgroundClip: "text",
             }}
           >
-            Onexo
+            Elvron
           </h1>
         </div>
 
@@ -71,7 +71,7 @@ const OnexoFooter: React.FC = () => {
               <div className="flex items-center mb-4 sm:mb-6 justify-center lg:justify-start">
                 <img
                   src="/footer/logo.png"
-                  alt="Onexo"
+                  alt="Elvron"
                   className="w-40 sm:w-52 md:w-[250px]"
                 />
               </div>
@@ -82,7 +82,7 @@ const OnexoFooter: React.FC = () => {
 
               <div className="flex items-center justify-center lg:justify-start gap-2 sm:gap-4">
                 <a
-                  href="https://x.com/onexo"
+                  href="https://x.com/Elvron"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 lg:w-10 lg:h-10  flex items-center justify-center"
@@ -90,7 +90,7 @@ const OnexoFooter: React.FC = () => {
                   <img src="/footer/x.png" alt="x" className="h-10 lg:h-6" />
                 </a>
                 <a
-                  href="https://t.me/onexocommunity"
+                  href="https://t.me/Elvroncommunity"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center"
@@ -130,7 +130,7 @@ const OnexoFooter: React.FC = () => {
               <div className="mt-5 sm:mt-6 font-bold text-[#002B62] text-xs text-center lg:text-left">
                 <p>For business inquiries & support,</p>
                 <p>contact us at:</p>
-                <p className="font-medium break-all">support@onexo.ai</p>
+                <p className="font-medium break-all">support@Elvron.ai</p>
               </div>
             </div>
 
@@ -191,7 +191,7 @@ const OnexoFooter: React.FC = () => {
 
         <div className="absolute bottom-4 left-0 right-0 z-20 text-center">
           <p className="text-[#9DC8FF] text-xs sm:text-sm">
-            2025 Onexo.ai. All rights reserved.
+            2025 Elvron.ai. All rights reserved.
           </p>
         </div>
       </footer>
@@ -201,4 +201,4 @@ const OnexoFooter: React.FC = () => {
   );
 };
 
-export default OnexoFooter;
+export default ElvronFooter;

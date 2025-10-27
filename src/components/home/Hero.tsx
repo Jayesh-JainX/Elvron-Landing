@@ -73,7 +73,7 @@ const StatGlow: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 };
 
 function PresaleCard() {
-  const openPresale = () => window.open("https://swarm.onexo.ai/", "_blank");
+  const openPresale = () => window.open("https://swarm.Elvron.ai/", "_blank");
   const [useAltSlider, setUseAltSlider] = useState(false);
 
   useEffect(() => {
@@ -204,17 +204,17 @@ function PresaleCard() {
             COMMUNITY & SUPPORT
           </h4>
           <div className="flex justify-center gap-4">
-            <a href="https://x.com/onexo" className="hover:opacity-80">
+            <a href="https://x.com/Elvron" className="hover:opacity-80">
               <img src="/hero/x.png" alt="X" className="w-8 h-8" />
             </a>
-            <a href="https://t.me/onexocommunity" className="hover:opacity-80">
+            <a href="https://t.me/Elvroncommunity" className="hover:opacity-80">
               <img
                 src="/hero/telegram.png"
                 alt="Telegram"
                 className="w-8 h-8"
               />
             </a>
-            <a href="mailto:support@onexo.ai" className="hover:opacity-80">
+            <a href="mailto:support@Elvron.ai" className="hover:opacity-80">
               <img src="/hero/mail.png" alt="Email" className="w-8 h-8" />
             </a>
           </div>
@@ -270,34 +270,34 @@ export default function Hero() {
     };
   }, []);
 
-  const openPresale = () => window.open("https://swarm.onexo.ai/", "_blank");
+  const openPresale = () => window.open("https://swarm.Elvron.ai/", "_blank");
 
   return (
     <>
       <Helmet>
-        <title>Onexo - Decentralized AI Compute Marketplace</title>
+        <title>Elvron - Decentralized AI Compute Marketplace</title>
         <meta
           name="description"
-          content="Onexo is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
+          content="Elvron is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
         />
         <meta
           property="og:title"
-          content="Onexo - Decentralized AI Compute Marketplace"
+          content="Elvron - Decentralized AI Compute Marketplace"
         />
         <meta
           property="og:description"
-          content="Onexo is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
+          content="Elvron is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
         />
         <meta property="og:image" content="/og-image.png" />
-        <meta property="og:url" content="https://onexo.ai/" />
+        <meta property="og:url" content="https://Elvron.ai/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Onexo - Decentralized AI Compute Marketplace"
+          content="Elvron - Decentralized AI Compute Marketplace"
         />
         <meta
           name="twitter:description"
-          content="Onexo is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
+          content="Elvron is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
         />
         <meta name="twitter:image" content="/og-image.png" />
       </Helmet>
@@ -350,7 +350,7 @@ export default function Hero() {
                 </h1>
 
                 <div className="text-white text-center lg:text-start font-sans text-xs lg:text-sm my-10">
-                  Onexo turns idle phones, laptops, and PCs into GPU power.
+                  Elvron turns idle phones, laptops, and PCs into GPU power.
                   Together, we build a community supercomputer that speeds up
                   AI, supports developers, creates smart agents, and boosts
                   gaming and research.

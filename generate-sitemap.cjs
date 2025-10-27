@@ -3,7 +3,7 @@ const { createWriteStream } = require("fs");
 
 const links = [{ url: "/", changefreq: "weekly", priority: 1.0 }];
 
-const sitemap = new SitemapStream({ hostname: "https://onexo.ai" });
+const sitemap = new SitemapStream({ hostname: "https://Elvron.ai" });
 
 streamToPromise(sitemap)
   .then((data) => {

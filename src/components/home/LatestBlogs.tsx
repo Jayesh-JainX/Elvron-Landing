@@ -16,10 +16,10 @@ export default function LatestBlogs() {
   return (
     <>
       <Helmet>
-        <title>Onexo Blog – Latest Updates</title>
+        <title>Elvron Blog – Latest Updates</title>
         <meta
           name="description"
-          content="Stay up to date with the latest Onexo news, product updates, and community stories."
+          content="Stay up to date with the latest Elvron news, product updates, and community stories."
         />
       </Helmet>
       <div className="mb-16">

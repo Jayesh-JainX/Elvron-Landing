@@ -168,10 +168,10 @@ export default function HowItWorks() {
   return (
     <>
       <Helmet>
-        <title>How Onexo Works – Decentralized AI Compute</title>
+        <title>How Elvron Works – Decentralized AI Compute</title>
         <meta
           name="description"
-          content="Learn how Onexo's decentralized platform connects GPU providers and AI users for seamless, scalable compute."
+          content="Learn how Elvron's decentralized platform connects GPU providers and AI users for seamless, scalable compute."
         />
       </Helmet>
       <SectionContainer className="py-24 relative overflow-hidden">
@@ -202,7 +202,7 @@ export default function HowItWorks() {
 
           <div>
             <p className="text-muted-foreground max-w-2xl mx-auto reveal reveal-delay-2">
-              Joining the Onexo ecosystem is simple and straightforward. Follow
+              Joining the Elvron ecosystem is simple and straightforward. Follow
               these steps to begin your journey.
             </p>
           </div>

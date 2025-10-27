@@ -92,7 +92,7 @@ export default function ProductHighlights() {
     {
       title: "AI Models",
       description:
-        "Generate images, text, audio, code, and video with ease. Unleash creativity with Onexo.\n\nWho it's for: Artists, developers, and businesses looking to integrate state-of-the-art AI into their workflows—no technical barriers, just results.",
+        "Generate images, text, audio, code, and video with ease. Unleash creativity with Elvron.\n\nWho it's for: Artists, developers, and businesses looking to integrate state-of-the-art AI into their workflows—no technical barriers, just results.",
       icon: <Code className="h-6 w-6" />,
       delay: "reveal-delay-2",
       url: "/products/ai-models",
@@ -118,10 +118,10 @@ export default function ProductHighlights() {
   return (
     <>
       <Helmet>
-        <title>Onexo Product Highlights – GPU, AI, Swarm & Agents</title>
+        <title>Elvron Product Highlights – GPU, AI, Swarm & Agents</title>
         <meta
           name="description"
-          content="Explore Onexo's decentralized GPU compute, AI models, Swarm network, and AI agents. Flexible, scalable solutions for everyone."
+          content="Explore Elvron's decentralized GPU compute, AI models, Swarm network, and AI agents. Flexible, scalable solutions for everyone."
         />
       </Helmet>
       <SectionContainer className="pb-16">
@@ -154,7 +154,7 @@ export default function ProductHighlights() {
         </div>
         <div className="mt-16 text-center reveal reveal-delay-5">
           <a
-            href="https://app.onexo.ai"
+            href="https://app.Elvron.ai"
             target="_blank"
             rel="noopener noreferrer"
           >

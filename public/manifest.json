@@ -1,6 +1,6 @@
 {
-  "name": "Onexo",
-  "short_name": "Onexo",
+  "name": "Elvron",
+  "short_name": "Elvron",
   "description": "Decentralized AI compute marketplace and GPU rental platform.",
   "start_url": "/",
   "display": "standalone",
