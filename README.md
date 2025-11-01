@@ -16,6 +16,8 @@ This landing site is built with Vite + React + TypeScript and styled with Tailwi
 
 - [Elvron Template](https://www.figma.com/design/PHH3euonLUGCCRo4sbSzZR/Elvron-Template?node-id=7-3503&t=HcqQyAHu10FUHXp4-1)
 
+- [Elvron Prototyping](https://www.figma.com/proto/PHH3euonLUGCCRo4sbSzZR/Elvron-Template?node-id=6-1624&t=vOVym6M5HXAcvjDX-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A1449)
+
 Notes:
 
 - Analytics events are collected only on Vercel deployments by default.
