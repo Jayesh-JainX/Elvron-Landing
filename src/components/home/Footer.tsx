@@ -7,7 +7,7 @@ const footerLinks = [
     links: [
       { label: "Compute", href: "/products/compute" },
       { label: "AI Models", href: "/products/ai-models" },
-      { label: "Neuro Swarm", href: "/products/swarm" },
+      { label: "Elvron Swarm", href: "/products/swarm" },
       { label: "AI Agents", href: "/products/agents" },
     ],
   },
@@ -130,7 +130,7 @@ const ElvronFooter: React.FC = () => {
               <div className="mt-5 sm:mt-6 font-bold text-[#002B62] text-xs text-center lg:text-left">
                 <p>For business inquiries & support,</p>
                 <p>contact us at:</p>
-                <p className="font-medium break-all">support@Elvron.ai</p>
+                <p className="font-medium break-all">support@elvron.ai</p>
               </div>
             </div>
 
