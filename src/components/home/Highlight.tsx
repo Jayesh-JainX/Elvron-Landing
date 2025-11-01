@@ -34,7 +34,7 @@ export function Highlight() {
       title: "Swarm Network",
       description:
         "Connect devices, solve compute tasks, and earn NLOV. Turn idle hardware into income. Why it matters: Anyone can contribute their device’s unused power to the network and earn rewards, making advanced AI accessible and affordable for all.",
-      cta: { label: "LEARN MORE", href: "https://swarm.Elvron.ai" },
+      cta: { label: "LEARN MORE", href: "#" },
       align: "start",
     },
     {

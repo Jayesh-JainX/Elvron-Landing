@@ -1,4 +1,4 @@
-# Elvron
+# Elvron - Decentralized AI Compute Marketplace
 
 Elvron is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI.
 
@@ -15,23 +15,6 @@ This landing site is built with Vite + React + TypeScript and styled with Tailwi
 ## Figma Design
 
 - [Elvron Template](https://www.figma.com/design/PHH3euonLUGCCRo4sbSzZR/Elvron-Template?node-id=7-3503&t=HcqQyAHu10FUHXp4-1)
-
-## Vercel Analytics
-
-This project includes Vercel Web Analytics. It is automatically active when deployed on Vercel, and has minimal impact on performance.
-
-- Package: `@vercel/analytics`
-- Import: `import { Analytics } from '@vercel/analytics/react'`
-- Rendered in: `src/App.tsx`
-
-Snippet used in `src/App.tsx`:
-
-```tsx
-import { Analytics } from "@vercel/analytics/react";
-
-// ... inside the App component JSX
-<Analytics />;
-```
 
 Notes:
 

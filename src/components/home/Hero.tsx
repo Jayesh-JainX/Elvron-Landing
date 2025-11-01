@@ -270,7 +270,9 @@ export default function Hero() {
     };
   }, []);
 
-  const openPresale = () => window.open("https://swarm.Elvron.ai/", "_blank");
+  const openPresale = () => {
+    window.location.href = "#";
+  };
 
   return (
     <>
@@ -289,7 +291,7 @@ export default function Hero() {
           content="Elvron is the decentralized AI compute marketplace and GPU rental platform for the future of open, community-driven AI."
         />
         <meta property="og:image" content="/og-image.png" />
-        <meta property="og:url" content="https://Elvron.ai/" />
+        <meta property="og:url" content="https://elvron-crypto.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"

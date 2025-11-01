@@ -144,7 +144,7 @@ const ComputePowerSharing: React.FC = () => {
         <div className="mt-10 lg:mt-16 z-10 pb-6">
           <button
             onClick={() => {
-              window.open("https://swarm.Elvron.ai", "_blank");
+              window.location.href = "#";
             }}
             className="
       relative inline-flex items-center justify-center
