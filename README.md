@@ -12,6 +12,10 @@ This landing site is built with Vite + React + TypeScript and styled with Tailwi
 - Build for production: `npm run build`
 - Preview production build: `npm run preview`
 
+## Figma Design
+
+- [Elvron Template](https://www.figma.com/design/PHH3euonLUGCCRo4sbSzZR/Elvron-Template?node-id=7-3503&t=HcqQyAHu10FUHXp4-1)
+
 ## Vercel Analytics
 
 This project includes Vercel Web Analytics. It is automatically active when deployed on Vercel, and has minimal impact on performance.
@@ -23,13 +27,14 @@ This project includes Vercel Web Analytics. It is automatically active when depl
 Snippet used in `src/App.tsx`:
 
 ```tsx
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
 // ... inside the App component JSX
-<Analytics />
+<Analytics />;
 ```
 
 Notes:
+
 - Analytics events are collected only on Vercel deployments by default.
 - No additional configuration is needed for basic page view tracking.
 
