@@ -185,7 +185,7 @@ function PresaleCard() {
 
         <button
           onClick={() => {
-            window.open("https://forms.gle/awCVM6xa9hUFQv926", "_blank");
+            window.open("#", "_blank");
           }}
           className="relative px-4 py-3 rounded-xl text-black font-semibold text-sm md:text-base overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(137,189,255,0.8)]"
         >
