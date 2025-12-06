@@ -1,14 +1,28 @@
 const { SitemapStream, streamToPromise } = require("sitemap");
 const { createWriteStream } = require("fs");
 
-const links = [{ url: "/", changefreq: "weekly", priority: 1.0 }];
+// Only include actual pages that exist in the application
+const links = [
+  {
+    url: "/",
+    changefreq: "weekly",
+    priority: 1.0,
+    lastmod: new Date().toISOString().split("T")[0],
+  },
+];
 
-const sitemap = new SitemapStream({ hostname: "https://elvron-crypto.vercel.app" });
+const sitemap = new SitemapStream({
+  hostname: "https://elvron-crypto.vercel.app",
+});
 
 streamToPromise(sitemap)
   .then((data) => {
     require("fs").writeFileSync("public/sitemap.xml", data.toString());
-    console.log("sitemap.xml created in /public");
+    console.log(
+      "✓ sitemap.xml created in /public with",
+      links.length,
+      "URL(s)"
+    );
   })
   .catch(console.error);
 

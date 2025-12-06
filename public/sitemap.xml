@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-  <url><loc>https://elvron-crypto.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/products/compute</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/products/ai-models</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/products/swarm</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/products/agents</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/token/overview</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/token/tokenomics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/token/utility</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/token/faq</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/ecosystem/roadmap</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/ecosystem/partners</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/resources</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/about/team</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/about/mission</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://elvron-crypto.vercel.app/about/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://elvron-crypto.vercel.app/</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
