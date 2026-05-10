@@ -115,7 +115,7 @@ const MobileTokenSlider: React.FC = () => {
             flex
             snap-x snap-mandatory
             scroll-smooth
-            [-ms-overflow-style:none] [scrollbar-width:none]
+            [-ms-overflow-style:none] scrollbar-none
           "
           style={{ scrollBehavior: "smooth" }}
           aria-roledescription="carousel"
@@ -391,7 +391,7 @@ const TokenShowcase: React.FC = () => {
 
                     <div className="absolute inset-0 rounded-xl overflow-hidden">
                       <div
-                        className="absolute inset-0 w-[269.5px] h-[194px] bg-gradient-to-r from-transparent via-white to-transparent opacity-44 animate-shine"
+                        className="absolute inset-0 w-[269.5px] h-[194px] bg-linear-to-r from-transparent via-white to-transparent opacity-44 animate-shine"
                         style={{
                           background:
                             "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0.44) 50%, rgba(255,255,255,0.1) 75%, transparent 100%)",

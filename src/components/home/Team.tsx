@@ -52,7 +52,7 @@ export default function Team() {
         <div className="relative z-10 block lg:hidden">
           <div
             ref={trackRef}
-            className="flex overflow-x-auto snap-x snap-mandatory pb-4 w-full [-ms-overflow-style:none] [scrollbar-width:none]"
+            className="flex overflow-x-auto snap-x snap-mandatory pb-4 w-full [-ms-overflow-style:none] scrollbar-none"
             style={{
               WebkitOverflowScrolling: "touch",
               scrollSnapType: "x mandatory",

@@ -116,6 +116,7 @@ export function Highlight() {
             description={h.description}
             cta={h.cta}
             index={index}
+            total={highlights.length}
             progress={scrollYProgress}
           />
         ))}

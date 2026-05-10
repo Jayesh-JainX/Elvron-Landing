@@ -20,7 +20,7 @@ export function Container({
   );
 }
 
-export function SectionContainer({
+function SectionContainer({
   children,
   className,
   as: Component = "section",

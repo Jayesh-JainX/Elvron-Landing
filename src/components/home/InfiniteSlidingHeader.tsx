@@ -17,7 +17,7 @@ const images = [
   "/presale-line/bg.png",
 ];
 
-export const LandingWithMarquee: React.FC<Props> = ({
+const LandingWithMarquee: React.FC<Props> = ({
   speedMs = 10000,
   reverse = false,
   rotateDeg = 0,

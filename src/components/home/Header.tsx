@@ -97,7 +97,7 @@ const Header: React.FC<Props> = ({
             <nav className="nav" aria-label="Primary">
               <ul className="nav-list">
                 {navItems.map((item) => (
-                  <li key={item.href} className="nav-li">
+                  <li key={item.label} className="nav-li">
                     {isExternal(item.href) ? (
                       <a
                         href={item.href}
@@ -184,7 +184,7 @@ const Header: React.FC<Props> = ({
             <nav className="drawer-nav" aria-label="Mobile primary">
               <ul className="drawer-list">
                 {navItems.map((item, idx) => (
-                  <li key={item.href} className="drawer-li">
+                  <li key={item.label} className="drawer-li">
                     {isExternal(item.href) ? (
                       <a
                         href={item.href}

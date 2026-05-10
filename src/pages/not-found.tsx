@@ -7,7 +7,7 @@ import { ArrowLeft } from "lucide-react";
 import LandingWithMarquee from "@/components/home/InfiniteSlidingHeader";
 import Header from "@/components/home/Header";
 import ElvronFooter from "@/components/home/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const NotFound = () => {
   const location = useLocation();
@@ -29,7 +29,7 @@ const NotFound = () => {
           content="The page you’re looking for doesn’t exist on Elvron."
         />
       </Helmet>
-      <div className="absolute inset-0 bg-gradient-to-b from-[#030924CC] via-[#030924] to-[#030924]" />
+      <div className="absolute inset-0 bg-linear-to-b from-[#030924CC] via-[#030924] to-[#030924]" />
       <LandingWithMarquee />
       <Header />
       <main className="relative z-10 min-h-screen pt-24 pb-16 flex items-center">

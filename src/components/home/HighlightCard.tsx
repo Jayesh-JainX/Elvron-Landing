@@ -13,6 +13,7 @@ interface HighlightCardProps {
   description: string;
   cta?: { label: string; href: string };
   index: number;
+  total: number;
   progress?: MotionValue<number>;
   align?: "start" | "center" | "end";
 }
@@ -23,6 +24,7 @@ export function HighlightCard({
   description,
   cta,
   index,
+  total,
   progress,
   align = "start",
 }: HighlightCardProps) {
@@ -30,7 +32,8 @@ export function HighlightCard({
   const fallbackProgress = useMotionValue(0);
   const actualProgress = progress || fallbackProgress;
 
-  const scale = useTransform(actualProgress, [0, 1], [1, 1]);
+  const targetScale = 1 - (total - 1 - index) * 0.05;
+  const scale = useTransform(actualProgress, [0, 1], [1, targetScale]);
 
   useEffect(() => {
     setIsMounted(true);
@@ -44,7 +47,7 @@ export function HighlightCard({
 
   return (
     <motion.div
-      className="rounded-3xl shadow-lg backdrop-blur-sm border border-blue-900/20 overflow-hidden relative card-contianer"
+      className="rounded-3xl shadow-lg backdrop-blur-sm border border-blue-900/20 overflow-hidden sticky card-container"
       style={{
         top: `calc(25vh + ${index * 16}px)`,
         scale: progress ? scale : 1,

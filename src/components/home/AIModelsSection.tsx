@@ -41,7 +41,7 @@ const AIModelsSection: React.FC = () => {
               {/* Feature badges column */}
               <div className="space-y-5 sm:space-y-6 lg:space-y-5">
                 <div className="flex items-center gap-3 lg:gap-4">
-                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center shrink-0">
                     <svg
                       className="w-5 h-5 text-white"
                       viewBox="0 0 30 30"
@@ -68,7 +68,7 @@ const AIModelsSection: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-3 lg:gap-4">
-                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center shrink-0">
                     <svg
                       className="w-4 h-4 lg:w-5 lg:h-5 text-white"
                       viewBox="0 0 30 29"
@@ -87,7 +87,7 @@ const AIModelsSection: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-3 lg:gap-4">
-                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center shrink-0">
                     <svg
                       className="w-4 h-4 lg:w-5 lg:h-5 text-white"
                       viewBox="0 0 30 30"
@@ -130,7 +130,7 @@ const AIModelsSection: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-3 lg:gap-4">
-                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 lg:w-9 lg:h-9 bg-[#17297c] rounded-md flex items-center justify-center shrink-0">
                     <svg
                       className="w-4 h-4 lg:w-5 lg:h-5 text-white"
                       viewBox="0 0 30 29"

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function Container(props: React.HTMLAttributes<HTMLDivElement>) {
   const { className = "", ...rest } = props;
@@ -142,17 +142,17 @@ function PresaleCard() {
               <img
                 src="/hero/progress-bar.png"
                 alt="Progress bar segment"
-                className="h-full w-[200px] flex-shrink-0 "
+                className="h-full w-[200px] shrink-0 "
               />
               <img
                 src="/hero/progress-bar.png"
                 alt="Progress bar segment"
-                className="h-full w-[200px] flex-shrink-0"
+                className="h-full w-[200px] shrink-0"
               />
               <img
                 src="/hero/progress-bar.png"
                 alt="Progress bar segment"
-                className="h-full w-[200px] flex-shrink-0"
+                className="h-full w-[200px] shrink-0"
               />
             </div>
           </div>
@@ -327,7 +327,7 @@ export default function Hero() {
                       <div className="absolute -bottom-1 -right-1 w-2 h-2 bg-[#D9D9D9] border border-[#318AF3] z-10" />
                       <span className="block font-sans space-x-2 p-2 border-2 border-b-0 border-[#265CA8] mt-2 text-3xl lg:text-5xl text-[#318AF3] relative">
                         <span
-                          className="absolute inset-0 bg-gradient-to-r from-black to-[#00377E] -z-10"
+                          className="absolute inset-0 bg-linear-to-r from-black to-[#00377E] -z-10"
                           style={{ width: "100%" }}
                         />
                         <SplitText text="BROWSER" delay={0.3} />
@@ -341,7 +341,7 @@ export default function Hero() {
                       <div className="absolute -bottom-1 -right-1 w-2 h-2 bg-[#D9D9D9] border border-[#318AF3] z-10" />
                       <span className="block font-sans space-x-2 p-2 border-2 border-[#265CA8] text-3xl lg:text-5xl text-[#318AF3] relative">
                         <span
-                          className="absolute inset-0 bg-gradient-to-r from-black to-[#00377E] -z-10"
+                          className="absolute inset-0 bg-linear-to-r from-black to-[#00377E] -z-10"
                           style={{ width: "100%" }}
                         />
                         <SplitText text="COMPUTE" delay={0.9} />

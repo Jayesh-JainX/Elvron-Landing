@@ -48,7 +48,7 @@ const ElvronFooter: React.FC = () => {
   return (
     <>
       <footer className="relative overflow-hidden rounded-3xl mx-2 sm:mx-4 mb-6 sm:mb-8">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#80B8FF] to-[#0361DA]"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-[#80B8FF] to-[#0361DA]"></div>
 
         <div className="absolute inset-0 flex items-end justify-center pointer-events-none select-none">
           <h1
